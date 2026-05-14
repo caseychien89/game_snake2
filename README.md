@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Snake Arcade
 
-# Run and deploy your AI Studio app
+A vibrant, retro-styled arcade snake game built with React, Vite, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/6dbe39ae-dae9-43ac-8aff-3aaff2bcb3d2
+- **Classic Gameplay**: Navigate the snake to eat food and grow longer.
+- **Dynamic Speed**: The game gets faster as you score more points.
+- **Responsive Design**: Playable on both desktop and mobile devices.
+- **High Score Tracking**: Keeps track of your best performance using local storage.
+- **Retro Aesthetics**: Bold colors and a clean, arcade-inspired interface.
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+
+## Deployment
+
+This project is configured to automatically deploy to **GitHub Pages** using **GitHub Actions**.
+
+Whenever you push changes to the `main` branch, the `.github/workflows/deploy.yml` workflow will:
+1. Install dependencies.
+2. Build the project.
+3. Deploy the `dist` folder to your GitHub Pages site.
+
+### Set up on GitHub
+
+To enable deployment:
+1. Go to your repository settings on GitHub.
+2. Navigate to **Pages** (under Code and automation).
+3. Under **Build and deployment** > **Source**, ensure it is set to **GitHub Actions**.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Controls
+
+- **Desktop**: 
+  - Use `W`, `A`, `S`, `D` or **Arrow Keys** to move.
+  - Press `SPACE` to pause or resume.
+- **Mobile**:
+  - Use the on-screen directional buttons.
+  - Use the pause button to toggle the game state.
+
+## License
+
+This project is licensed under the Apache-2.0 License.
