@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-arcade-gold: #FFD700;
+  --color-arcade-green: #50C878;
+  --color-arcade-blue: #4DA6FF;
+  --color-arcade-orange: #FF914D;
+  --color-arcade-red: #FF5E5E;
+  
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
